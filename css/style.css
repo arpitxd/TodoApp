@@ -1,0 +1,28 @@
+ul {
+    list-style: none !important;
+    margin: 0;
+}
+li {
+    margin-right: 10px;
+}
+.todo_list li {
+    padding: 10px;
+}
+.todo_list label{
+     cursor: pointer;
+     
+}
+.error {
+    margin-left: 40px;
+    color: red;
+}
+.add_form {
+    display: flex;
+    flex-direction: row;
+}
+input[type="checkbox"]{
+    display: none;
+}
+input:checked + strong { 
+    text-decoration: line-through;
+}
